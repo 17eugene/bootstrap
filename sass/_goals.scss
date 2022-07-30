@@ -1,0 +1,42 @@
+.section-btn {
+  width: max-content;
+}
+
+.goal-item {
+  background-color: #fff;
+  padding: 20px 12px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: $boxShadow;
+}
+
+.goal-section .goals-list .col-md-6:nth-child(1) .goal-item .goal-item__label {
+  color: var(--purple);
+}
+
+.goal-section .goals-list .col-md-6:nth-child(2) .goal-item .goal-item__label {
+  color: var(--orange);
+}
+
+.goal-section .goals-list .col-md-6:nth-child(3) .goal-item .goal-item__label {
+  color: var(--cyan);
+}
+
+.goal-section .goals-list .col-md-6:nth-child(4) .goal-item .goal-item__label {
+  color: var(--yellow);
+}
+
+.progress {
+  height: 0.5em;
+  // width: 75%;
+  margin: 0 auto;
+
+  &-wrapper {
+    top: 60px;
+  }
+
+  &-bar {
+    background: var(--pink);
+  }
+}
+

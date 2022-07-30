@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="d-none d-md-block col-md-3 p-0">
+          <aside class="sidebar p-4" data-toggle="popover" title="Sidebar popover" data-content="Here is some info about sidebar">
+            <div
+              class="logo-section d-flex align-items-center justify-content-center mb-md-5"
+            >
+              <i
+                class="logo-section__icon bi bi-bootstrap mr-md-3 text-white"
+              ></i>
+              <h1 class="h3 logo-section__title text-white" data-toggle="popover" title="Title popover" data-content="Add some info about title">BONGO</h1>
+            </div>
+            <ul class="sidebar__list list-unstyled text-white font-weight-bold">
+              <li class="sidebar__item mb-md-5">
+                <a class="navlink" href="index.html">
+                  <i class="bi bi-bar-chart-fill mr-2"></i>
+                  Goals
+                </a>
+              </li>
+              <li class="sidebar__item mb-md-5">
+                <a class="navlink" href="profile.html">
+                  <i class="bi bi-person-fill mr-2"></i>
+                  Profile
+                </a>
+              </li>
+              <li class="sidebar__item mb-md-5 mr-2">
+                <a class="navlink" href="registration.html">
+                  <i class="bi bi-person-check"></i>
+                  Register
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="col p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col p-0">
+                <header class="container-fluid header bg-white pt-3 pb-3">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-6 col-md-7">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="d-md-none burger" data-toggle="popover" title="Burger menu" data-content="Here is the burger!" width="30" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                      <div class="d-none d-md-flex header-search flex-nowrap">
+                        <input type="text" class="d-none d-md-block header-form-control search-input w-100" placeholder="Search for..." aria-label="Search for...">
+                        <div class="input-group-append d-none d-md-block">
+                          <button class="btn btn-primary search-btn" type="button" data-toggle="popover" title="Button popover" data-content="You clicked the button"><img src="./images/search.svg"/></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 col-md-2">
+                      <div class="header-icons d-flex align-items-center justify-content-around">
+                        <i class="icon mr-3 d-md-none bi bi-search"></i>
+                        <div class="icon-wrapper" data-toggle="popover" title="Message popover" data-content="You ain't got no messages, it illusion">
+                          <span class="icon-badge bange badge-danger">3</span>
+                          <i class="icon mr-3 bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="icon-wrapper" data-toggle="popover" title="Alert popover" data-content="You ain't got no alerts. This is a fake. Click again to close this">
+                          <span class="icon-badge bange badge-danger">7</span>
+                          <i class="icon icon bi bi-bell-fill"></i>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+
+                    <div class="col-3 col-md-3">
+                      <div class="user-info d-flex align-items-center justify-content-end">
+                        <span class="d-none d-md-block mr-md-3 username">Eugene</span>
+                        <div class="avatar overflow-hidden rounded-circle" data-toggle="popover" title="User" data-content="You can not change user data">
+                          <img src="./images/avatar.jfif" alt="avatar" width="50" height="50"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>    
+                </header>
+              </div>
+            </div>
+
+            <main>
+              <section class="goal-section section pt-4 mb-md-5">
+                <div class="container">
+                  <div class="row align-items-center mb-4">
+                    <div class="col">
+                      <h1>Goals</h1>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                      <button class="btn btn-primary section-btn" data-toggle="popover" title="Button popover" data-content="If you want generate the report, add some logic">
+                        <i class="bi bi-download"></i>
+                        Generate report
+                      </button>
+                    </div>
+                  </div>
+                  <div class="goals-list row mb-md-3">
+                    <div class="col-md-6 mb-4">
+                      <div
+                        class="goal-item d-flex align-items-center justify-content-between"
+                      >
+                        <div>
+                          <h3 class="goal-item__label h6 text-uppercase">
+                            earnings (mounthly)
+                          </h3>
+                          <span class="h3 goal-item__value">$40,000</span>
+                        </div>
+                        <div class="goal-icon-wrapper">
+                          <img width="35" src="./images/calendar-fill.svg" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div
+                        class="goal-item d-flex align-items-center justify-content-between"
+                      >
+                        <div>
+                          <h3 class="goal-item__label h6 text-uppercase">
+                            earnings (annual)
+                          </h3>
+                          <span class="h3 goal-item__value">$215,000</span>
+                        </div>
+                        <div class="goal-icon-wrapper">
+                          <img width="35" src="./images/currency-dollar.svg" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mb-md-0">
+                      <div
+                        class="goal-item d-flex align-items-center justify-content-between position-relative"
+                      >
+                        <div>
+                          <h3 class="goal-item__label h6 text-uppercase">
+                            tasks
+                          </h3>
+                          <span class="h3 goal-item__value">50%</span>
+                        </div>
+                        <div class="progress-wrapper w-100 position-absolute">
+                          <div class="progress w-50">
+                            <div
+                              class="progress-bar w-50"
+                              role="progressbar"
+                              aria-valuenow="50"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="goal-icon-wrapper">
+                          <img
+                            width="35"
+                            src="./images/clipboard2-data-fill.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-md-0">
+                      <div
+                        class="goal-item d-flex align-items-center justify-content-between"
+                      >
+                        <div>
+                          <h3 class="goal-item__label h6 text-uppercase">
+                            pending requests
+                          </h3>
+                          <span class="h3 goal-item__value">18</span>
+                        </div>
+                        <div class="goal-icon-wrapper">
+                          <img width="35" src="./images/chat.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="todo-section section mb-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="todos w-100">
+                      <div class="col-md-12">
+                        <h4 class="h5 block-title p-3">Todo List</h4>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div
+                          class="todos__item pt-2 pb-3 pl-3 pr-4 d-flex align-items-center justify-content-between flex-row-reverse"
+                        >
+                          <input class="todos__checkbox" type="checkbox" />
+                          <div class="todos__body">
+                            <p class="todos__name mb-1 font-weight-bold">
+                              Lunch meeting
+                            </p>
+                            <span class="todos__time">10:30 AM</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div
+                          class="todos__item pt-2 pb-3 pl-3 pr-4 d-flex align-items-center justify-content-between flex-row-reverse"
+                        >
+                          <input class="todos__checkbox" type="checkbox" />
+                          <div class="todos__body">
+                            <p class="todos__name mb-1 font-weight-bold">
+                              Lunch meeting
+                            </p>
+                            <span class="todos__time">11:30 AM</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div
+                          class="todos__item pt-2 pb-3 pl-3 pr-4 d-flex align-items-center justify-content-between flex-row-reverse"
+                        >
+                          <input class="todos__checkbox" type="checkbox" />
+                          <div class="todos__body">
+                            <p class="todos__name mb-1 font-weight-bold">
+                              Lunch meeting
+                            </p>
+                            <span class="todos__time">12:30 AM</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+
+            <div class="row">
+              <div class="col p-0">
+                <footer class="container-fluid footer bg-white pt-4 pb-2">
+                  <p class="footer-text d-flex justify-content-center">
+                    Copyright &copy; Nix Student 2022
+                  </p>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </body>
+</html>

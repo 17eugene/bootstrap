@@ -1,0 +1,43 @@
+.main-wrapper {
+  background-color: var(--purple);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form-row {
+    box-shadow: 2px 3px 9px rgb(15, 48, 196), 4px 6px 15px rgb(170, 173, 172), 6px 8px 24px rgba(128, 171, 215, 0.5);
+}
+
+.register-form {
+    margin: 0 auto;
+    width: 750px;
+    max-height: 800px;
+
+    &__photo {
+        background-image: url("../images/photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 550px;
+        background-position: -110px 0px;
+    }
+}
+
+.register-input {
+    border-radius: 25px;
+    height: 45px;
+    font-size: 12px;
+}
+
+.form-submit-btn {
+    font-size: $fontSize;
+    border-radius: 25px;
+}
+
+.facebook {
+    background-color: var(--purple);
+}
+
+.form-link-container a {
+    text-decoration: underline;
+}

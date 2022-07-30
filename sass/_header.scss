@@ -1,0 +1,58 @@
+.header {
+  height: 80px;
+  box-shadow: $boxShadow;
+}
+
+.search-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.search-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+  background: var(--light);
+  border: 1px solid rgba(111, 111, 111, 0.2);
+  outline: none;
+  padding-left: 1em;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.bange {
+    display: block;
+    text-align: center;
+}
+
+.icon-badge {
+    width: 15px;
+    height: 14px;
+    border-radius: 3px;
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.username {
+  color: var(--cyan);
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+@media screen and(min-width: 768px) {
+  .user-info:before {
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: var(--cyan);
+    position: relative;
+    left: -25px;
+  }
+}
